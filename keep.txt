@@ -1,0 +1,29 @@
+Libraries:
+    pip install pyqt5-tools
+    pip install PyQt5
+    pip install fpdf
+    pip install pyinstaller 
+
+
+Designer:
+    C:\Program Files\Python37\Lib\site-packages\qt5_applications\Qt\bin\designer.exe
+
+
+Ui to Py: (in GUI)
+    Pyuic5 -x -o officer_gui.py officer_gui.ui
+    Pyuic5 -x -o costumer_gui.py costumer_gui.ui
+    Pyuic5 -x -o Signin_gui.py Signin_gui.ui
+    Pyuic5 -x -o Signup_gui.py Signup_gui.ui
+
+Test: (in Test)
+    pytest
+
+
+Costumer:
+    username : azarhajipour
+    password: 1234
+
+
+Officer:
+    username : mahdihajipour
+    password: 4321
