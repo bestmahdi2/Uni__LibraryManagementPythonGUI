@@ -1,8 +1,8 @@
-from sys import path, argv, exit
 from re import search
 from time import sleep
 from hashlib import md5
 from typing import Union
+from sys import path, argv, exit
 
 from PyQt5.QtCore import Qt
 from sqlite3 import connect
@@ -13,15 +13,30 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QLabel, QTableWidget, QComboBox, QListWidget, QTextBrowser, QListWidgetItem, QMainWindow, \
     QDialog
 
-from Code.Lending import Lending
+##====== while testing ======##
 
+# from Code.Lending import Lending
+
+# path.insert(1, '../')
+# from Code.Book import Book
+# from Code.Person import Person
+# from Code.Officer import Officer
+# from Code.Costumer import Costumer
+# from Code.Receipt_Bill import Receipt, Bill
+# from Code.Tools import BookState, Tools, CommandState
+
+##====== while running ======## 
+
+from Lending import Lending
+
+from Book import Book
+from Person import Person
+from Officer import Officer
+from Costumer import Costumer
+from Receipt_Bill import Receipt, Bill
+from Tools import BookState, Tools, CommandState
 path.insert(1, '../')
-from Code.Book import Book
-from Code.Person import Person
-from Code.Officer import Officer
-from Code.Costumer import Costumer
-from Code.Receipt_Bill import Receipt, Bill
-from Code.Tools import BookState, Tools, CommandState
+
 from GUI.Signin_gui import Ui_SignInWindow
 from GUI.Signup_gui import Ui_SignUpWindow
 from GUI.officer_gui import Ui_OfficerWindow

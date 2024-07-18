@@ -4,8 +4,13 @@ from enum import Enum
 from typing import Union
 from datetime import timedelta, datetime as Datetime
 
-path.insert(1, '../')
-from Code.Receipt_Bill import Bill, Receipt
+##====== while testing ======##
+
+# from Code.Receipt_Bill import Bill, Receipt
+
+##====== while running ======## 
+
+from Receipt_Bill import Bill, Receipt
 
 
 class CommandState(Enum):

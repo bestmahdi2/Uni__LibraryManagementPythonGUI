@@ -1,9 +1,15 @@
 from sys import path
 
-path.insert(1, '../')
-from Code.Person import Person
-from Code.Lending import Lending
+##====== while testing ======##
 
+# path.insert(1, '../')
+# from Code.Person import Person
+# from Code.Lending import Lending
+
+##====== while running ======## 
+
+from Person import Person
+from Lending import Lending
 
 class Receipt:
     """

@@ -1,0 +1,5 @@
+pyqt5-tools
+PyQt5
+fpdf
+pyinstaller
+pytest

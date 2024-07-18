@@ -4,11 +4,18 @@ from hashlib import md5
 from typing import Union
 from datetime import datetime as Datetime
 
-path.insert(1, '../')
-from Code.Person import Person
-from Code.Lending import Lending
-from Code.Tools import CommandState, BookState, Tools
+##====== while testing ======##
 
+# path.insert(1, '../')
+# from Code.Person import Person
+# from Code.Lending import Lending
+# from Code.Tools import CommandState, BookState, Tools
+
+##====== while running ======## 
+
+from Person import Person
+from Lending import Lending
+from Tools import CommandState, BookState, Tools
 
 class Costumer(Person):
     """
